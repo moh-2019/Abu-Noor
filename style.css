@@ -1,0 +1,160 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+
+
+body{
+	
+	text-align: center;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	 font-weight: bold;
+
+}
+
+ p{
+	padding: 10px;
+	margin: 10px;
+}
+
+.logo img {
+ max-width:600px;
+ height: 100px;
+ float: right;
+ margin:10;
+}
+
+.head{
+	background: #028088; 
+	color: white;
+	padding: 50px;
+	margin: 40px;
+}
+
+
+
+.head nav{
+	
+	 list-style-type: none;
+
+   margin: 0;
+   padding: 0; 
+	color: white;
+	
+	
+}
+
+
+.head nav ul{
+	 list-style-type: none;
+   margin: 0;
+   padding: 0;  
+}
+
+
+.head nav li a{
+ text-decoration: none;
+	color: white;
+ padding: 15px;
+display: block;
+float:  right;
+}
+
+
+
+.head-title{
+	color: #028088;
+}
+
+
+
+
+
+.card{
+	background: #ECF1F1;
+	color: #028088;
+	padding: 80px;
+	margin: 40px;
+	border-radius: 30px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
+form { max-width:420px; margin:50px auto; }
+
+.feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #028088;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+	
+}
+
+.feedback-input:focus { border:2px solid #028088; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#028088;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+
+
+
+.footer{
+	padding: 20px;
+	margin: 10px;
+	background: #028088;
+	color: white;
+}
+
+
